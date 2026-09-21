@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>App Policies</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --surface: #f5f6fa;
+    --text: #1a1c22;
+    --muted: #585c68;
+    --accent: #4a5ba9;
+    --border: #e0e2ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12141a;
+      --surface: #1c1f28;
+      --text: #e8e9ee;
+      --muted: #a0a4b2;
+      --accent: #9aa6e6;
+      --border: #2a2e3a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 0 16px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding-block: 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .meta { color: var(--muted); margin: 0 0 36px; }
+  .app {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 12px;
+  }
+  .app:hover { border-color: var(--accent); }
+  .app-name { font-weight: 600; font-size: 1.05rem; color: var(--accent); }
+  .app-desc { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>App Policies</h1>
+<p class="meta">Privacy policies for published Android apps.</p>
+
+<a class="app" href="./pdftools/">
+  <div class="app-name">PDF Toolkit</div>
+  <div class="app-desc">Offline PDF toolkit — privacy policy</div>
+</a>
+
+<footer>
+  Contact: <a href="mailto:shivaramm222@gmail.com">shivaramm222@gmail.com</a>
+</footer>
+
+</div>
+</body>
+</html>
