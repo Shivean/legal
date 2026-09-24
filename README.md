@@ -12,6 +12,7 @@ One directory per app, each with its own `index.html`:
 index.html          landing page, links to each app
 pdftools/           PDF Toolkit — com.shiva.pdftools
 arrowdrift/         Arrow Drift — com.arrowdrift.game
+thinktwice/         Think Twice — com.trickygame.thinktwice
 ```
 
 ## Adding a new app
