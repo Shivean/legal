@@ -14,6 +14,7 @@ pdftools/           PDF Toolkit — com.shiva.pdftools
 photoresizer/       Photo Resizer — com.shiva.photoresizer
 arrowdrift/         Arrow Drift — com.arrowdrift.game
 thinktwice/         Think Twice — com.trickygame.thinktwice
+voicechanger/       Voice Changer — com.shivean.voicechanger
 ```
 
 ## Adding a new app
