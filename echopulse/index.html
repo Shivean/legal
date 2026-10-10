@@ -167,7 +167,10 @@
 <ul>
   <li><strong>Internet</strong> and <strong>network state</strong>: only to load ads and the
       consent form. The game itself never uses the network.</li>
-  <li><strong>Advertising ID</strong>: used by Google AdMob as described above.</li>
+  <li><strong>Advertising ID</strong> and Android's <strong>ad services</strong> permissions:
+      added by Google's ads SDK and used by Google AdMob as described above.</li>
+  <li><strong>Wake lock</strong>: added by Google's ads SDK so its background tasks can finish.
+      The game itself does not keep your phone awake except while you are playing.</li>
   <li><strong>Vibration</strong>: for short haptic cues when you send a sonar pulse, bump into
       a wall, come near danger, or complete a level. You can turn this off in Settings.</li>
 </ul>
