@@ -17,6 +17,7 @@ thinktwice/         Think Twice — com.trickygame.thinktwice
 voicechanger/       Voice Changer — com.shivean.voicechanger
 tiltbound/          TiltBound — com.example.tiltbound
 chromareflect/      ChromaReflect — com.chromareflect.game
+echopulse/          Echo Pulse — com.shivean.echopulse
 ```
 
 ## Adding a new app
